@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- addresshomepage.html - by:proxlu -->
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+</head>
+<body bgcolor=#333333>
+    <form id="redirectForm">
+        <input type="text" id="urlInput" placeholder="Digite a URL" value="https://">
+        <input type="submit" value="Acessar">
+    </form>
+
+<script>
+    document.getElementById("redirectForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        var url = document.getElementById("urlInput").value;
+        window.location.href = url;
+    });
+
+window.onload = function() {
+  var campo1 = document.getElementById("urlInput");
+      campo1.focus();
+      campo1.setSelectionRange(campo1.value.length, campo1.value.length);
+};
+    </script>
+</body>
+</html>
