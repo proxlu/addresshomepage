@@ -5,4 +5,4 @@ Pagina inicial como barra de endereço.
 2. Copie esse local do arquivo, porexemplo: **/home/user/.mozilla/addresshomepage.html**
 3. Cole o endereço copiado anteriormente na **Home Page** do seu navegador
 
-![print](https://github.com/proxlu/addresshomepage/assets/105125779/1e2f8732-0f1b-4903-8649-d401d645153f)
+![print](https://github.com/proxlu/addresshomepage/assets/105125779/8ea623d8-5b96-4f5d-93d4-f10a1ed8505c)
